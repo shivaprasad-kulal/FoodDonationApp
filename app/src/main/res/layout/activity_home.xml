@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/share_food_background_1"
+    tools:context=".Home">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:paddingBottom="24dp"
+        android:layout_gravity="center"
+        android:background="@drawable/layout_border">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:padding="5dp"
+            android:text="If you have extra food, share it with other who are in need of it"
+            android:textColor="#1C1C1C"
+            android:textSize="18dp"
+            android:textStyle="normal"
+            tools:layout_editor_absoluteX="-9dp"
+            tools:layout_editor_absoluteY="84dp" />
+
+
+        <Button
+            android:id="@+id/ShareFoodBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:text="Share my food"
+            android:background="@drawable/new_user_btn"
+            android:textStyle="bold"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="or"
+            android:textColor="#1C1C1C"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="-9dp"
+            tools:layout_editor_absoluteY="84dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:padding="5dp"
+            android:text="Search for food"
+            android:textColor="#1C1C1C"
+            android:textSize="18dp"
+            android:textStyle="normal"
+            tools:layout_editor_absoluteX="-9dp"
+            tools:layout_editor_absoluteY="84dp" />
+
+        <Button
+            android:id="@+id/SearchFoodBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:text="Search for food"
+            android:background="@drawable/new_user_btn"
+            android:textStyle="bold"
+            android:textSize="16dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

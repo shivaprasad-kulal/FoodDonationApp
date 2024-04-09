@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red">#FF2E2E</color>
+    <color name="light_red">#FFE0E0</color>
+
+    <!--Text-->
+    <color name="text_white">#FFFFFF</color>
+    <color name="text_black">#171717</color>
+
+    <!--Card-->
+    <color name="card_body_white">#FFFFFFFF</color>
+    <color name="card_body_black">#6E6E6E</color>
+
+    <!--Button text-->
+    <color name="button_red">#FF6D6D</color>
+
+    <!--Button text-->
+    <color name="button_text_white">#FFFFFF</color>
+    <color name="button_text_black">#292929</color>
+
+    <color name="card_color">#F1F1F1</color>
+</resources>
